@@ -20,6 +20,6 @@ SVG | **24.27** | **0.860**
 3D-GAN | 23.20 | 0.813
 
 # Architecture Details
-The architecture is a variational auto encoder to generate CT scans. The encoder/decoder follow a Deep Convolutional GAN Discriminator/Generater archiecture respectively. An LSTM is used to encode temporal information. 
+The architecture follows the variational auto encoder (VAE) formalism to generate CT scans. The encoder/decoder follow a Deep Convolutional GAN Discriminator/Generater archiecture respectively. An LSTM is used to encode temporal information. 
 
 For more details, see initial report in ``report`` folder.
