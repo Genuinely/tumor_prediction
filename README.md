@@ -5,9 +5,13 @@ Modified from: https://github.com/edenton/svg
 # To Run
 First, make a new virtual env using requirements.txt.
 
-1. Download tumor dataset and put into a subfolder titled 35_um_data_100x100x48_niis
-1. Run  `train.py` with appropriate paramaters which will output model.pth
+1. Download raw tumor dataset and put into a subfolder titled 35_um_data_100x100x48_niis
+1. Run  `train.py` with appropriate paramaters which will output model.pth. Remember to set seed if you want reproducible results.
 1. Place the model.pth path as one of the params for `generate.py`
+
+# Example Results
+SVG prediction samples, fourth frame is actual ground truth and last frame is predicted
+![SVG Result](https://github.com/Genuinely/tumor_prediction/tree/main/images/svg_reg.png)
 
 # Dataset
 The main data set consists of CT image scans of the leg bones of mice. 
