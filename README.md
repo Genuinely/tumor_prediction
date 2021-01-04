@@ -11,7 +11,7 @@ First, make a new virtual env using requirements.txt.
 
 # Example Results
 SVG prediction samples, fourth frame is actual ground truth and last frame is predicted
-![SVG Result](https://github.com/Genuinely/tumor_prediction/tree/main/images/svg_reg.png)
+![SVG Result](https://github.com/Genuinely/tumor_prediction/tree/main/images/svg_reg.png?raw=true)
 
 # Dataset
 The main data set consists of CT image scans of the leg bones of mice. 
